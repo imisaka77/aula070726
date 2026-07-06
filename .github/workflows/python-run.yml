@@ -52,5 +52,5 @@ jobs:
       run: |
             mkdir "${{ inputs.nome_pasta }}"
             cd "${{ inputs.nome_pasta }}"
-            echo "print('${{ inputs.mensagem }}') > ${{ inputs.nome_ficheiro }}.py
+            echo "print('${{ inputs.mensagem }}')" > ${{ inputs.nome_ficheiro }}.py
             python ${{ inputs.nome_ficheiro }}.py
